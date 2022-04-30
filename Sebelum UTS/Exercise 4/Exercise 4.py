@@ -91,7 +91,7 @@ def fieldAtk():
                 t -= 1
                 if atk_(skillsB_.get('shoot'),mentalB_.get('ATK')) > gk_(skillsA_.get('save'),mentalA_.get('GK')):
                     t -= 2
-                    print('tendangan berhasil memasukki gawang, gol bestie!')
+                    print('Gol!!!!!!')
                     print(f'waktu pertandingan tersisa {t} menit')
                     b += 1
                     resultCheck()
