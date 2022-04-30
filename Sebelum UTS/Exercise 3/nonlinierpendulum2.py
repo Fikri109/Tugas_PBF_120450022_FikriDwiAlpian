@@ -3,7 +3,6 @@ from math import *
 import matplotlib.pyplot as plt
 from metode_euler import *
 
-
 # example y" = -y - y' + sin^2(t)
 def Func(t,y,dy):
     return (-1 *y) + (-1 * dy) + sin(t)**2
@@ -87,7 +86,6 @@ plt.ylim(-4,2)
 plt.legend()
 plt.figure()
 
-
 # visualisasi plot comparison
 (t,res_eksak) = solusi_analitik(params2)
 plt.plot(t,res_eksak,color='r',label='Solusi Analitik')
@@ -102,7 +100,5 @@ plt.xlabel('t')
 plt.ylabel('y(t)')
 plt.ylim(-4,2)
 plt.legend()
-
-
 
 plt.show()
