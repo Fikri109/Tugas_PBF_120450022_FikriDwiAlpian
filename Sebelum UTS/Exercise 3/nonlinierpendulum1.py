@@ -11,10 +11,9 @@ du0 = 0        # diffrensial
 t0 = 0         # waktu awal
 t_akhir = 4    # waktu akhir
 h = 0.01       # step size
-w0 = g/l       # rumus g/L
 
 def Func(t,u,du):
-    return -w0 * sin(u) - k*du #rumus func yang me return nilai -g/l * sin(a)
+    return -(g/l) * sin(u) - k*du #rumus func yang me return nilai -g/l * sin(a)
 
 #membuat list kosong 
 res_euler = []
