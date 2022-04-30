@@ -34,7 +34,7 @@ def gk_(x,y):
 def df_(x,y):
     return hitung_skill(x,y)
 # Awal game
-def mulai():
+def kickoff():
     print('Pertandingan dimulai')
     fieldMid()
 
@@ -158,4 +158,4 @@ def fieldDf():
                 fieldAtk() 
     else:
         stopBreak(t)
-mulai()
+kickoff()
